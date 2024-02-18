@@ -13,13 +13,13 @@ export OCP_VERSION="stable"
 export RHCOS_VERSION=""
 
 # -m, --masters N
-export N_MAST="3"
+export N_MAST="1"
 
 # -w, --workers N
-export N_WORK="2"
+export N_WORK="1"
 
 # --master-cpu N(vCPU)
-export MAS_CPU="4"
+export MAS_CPU="8"
 
 # --master-mem SIZE(MB)
 export MAS_MEM="16000"
@@ -28,7 +28,7 @@ export MAS_MEM="16000"
 export WOR_CPU="2"
 
 # --worker-mem SIZE(MB)
-export WOR_MEM="8000"
+export WOR_MEM="16000"
 
 # --bootstrap-cpu N(vCPU)
 export BTS_CPU="4"
